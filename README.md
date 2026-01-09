@@ -4,21 +4,21 @@ A 3D interactive application where you control a floating cube using hand gestur
 
 ![Demo](https://github.com/Khorrrr/gesture-controlled-3d-ar/releases/download/v1.0.0/demo.gif)
 
-## 🎮 Features
+##  Features
 
 -   **Real-time Hand Tracking**: Uses MediaPipe to track your hand landmarks with high precision.
 -   **Interactive 3D Graphics**: smooth 3D rendering powered by the Ursina Engine.
 -   **Gesture Controls**:
-    -   **🖐 Open Hand**: Rotate the cube. Move your hand to spin it, or "flick" to give it momentum with physics-based inertia.
-    -   **✊ Fist**: Enter "Color Cycle" mode. The cube spins and cycles through vibrant colors.
+    -   ** Open Hand**: Rotate the cube. Move your hand to spin it, or "flick" to give it momentum with physics-based inertia.
+    -   ** Fist**: Enter "Color Cycle" mode. The cube spins and cycles through vibrant colors.
 -   **Physics & Feedback**: Includes friction, velocity, and snapping to nearest angles for a polished feel.
 
-## 🛠️ Installation
+##  Installation
 
 1.  **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/gesture-controlled-cube.git
-    cd gesture-controlled-cube
+    git clone https://github.com/Khorrrr/gesture-controlled-3d-ar.git
+    cd gesture-controlled-3d-ar
     ```
 
 2.  **Create a virtual environment (Optional but Recommended)**:
@@ -35,7 +35,7 @@ A 3D interactive application where you control a floating cube using hand gestur
     pip install -r requirements.txt
     ```
 
-## 🚀 Usage
+##  Usage
 
 1.  Run the application:
     ```bash
@@ -48,13 +48,18 @@ A 3D interactive application where you control a floating cube using hand gestur
     -   **Make a Fist**: Changes cube color and spins it.
     -   **ESC**: Quit the application.
 
-## 🔧 Technologies Used
+##  Technologies Used
 
 -   [Ursina Engine](https://www.ursinaengine.org/) - For 3D rendering.
 -   [MediaPipe](https://developers.google.com/mediapipe) - For hand tracking.
 -   [OpenCV](https://opencv.org/) - For camera input processing.
 
-## 📝 Requirements
+##  Requirements
 
 -   Python 3.x
 -   Webcam
+
+## Improvments
+-   Add more gestures to interact with the shape.
+-   Add buttons on top of the screen when touched, will be able to display a different shape.
+-   Be able to fill the cube with small particules, and interact with its size where the physics will be applied on the particules.
