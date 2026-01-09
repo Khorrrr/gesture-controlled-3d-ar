@@ -2,7 +2,7 @@
 
 A 3D interactive application where you control a floating cube using hand gestures! Built with Python, Ursina Engine, MediaPipe, and OpenCV.
 
-![Demo](demo.gif)
+![Demo](https://github.com/Khorrrr/gesture-controlled-3d-ar/releases/download/v1.0.0/demo.gif)
 
 ## 🎮 Features
 
